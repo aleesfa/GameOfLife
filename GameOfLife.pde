@@ -49,7 +49,7 @@ public void draw () {
 
 public void keyPressed() {
   //your code here
-  if(keyPressed)
+  if(key == 'a')
     running = !running;
 }
 
