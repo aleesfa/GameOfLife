@@ -120,9 +120,9 @@ public int countNeighbors(int row, int col) {
      if(buttons[row-1][col].getLife())
         neighbors += 1;
    }
-   if(isValid(row+1, col-1))
+   if(isValid(row, col-1))
    {
-     if(buttons[row+1][col-1].getLife())
+     if(buttons[row][col-1].getLife())
         neighbors += 1;
    }
   return neighbors;
